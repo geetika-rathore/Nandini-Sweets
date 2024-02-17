@@ -1,0 +1,35 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+  height:800px;
+  padding-top: 60px;
+}
+.item:nth-child(1) {
+  background-image: url(../laddu2.jpg); /* Set background image for slide 1 */
+  background-size: cover;
+  background-position: center;
+}
+
+.item:nth-child(2) {
+  background-image: url(../laddu2.jpg); /* Set background image for slide 2 */
+  background-size: cover;
+  background-position: center;
+}
+
+.item:nth-child(3) {
+  background-image: url(../laddu2.jpg); /* Set background image for slide 3 */
+  background-size: cover;
+  background-position: center;
+}
+/* Hide dots */
+.alice-carousel__dots {
+  display: none !important;
+}
+
+/* Hide buttons */
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+  display: none !important;
+}
