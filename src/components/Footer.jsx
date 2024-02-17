@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa'; // Import the FaMapMarkerAlt icon
+import { FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa'; 
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <FaPhoneAlt size={32} />
           </a>
           {/* Location Link */}
-          <a href="https://www.google.com/maps/place/Your+Location+Here" target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href="https://maps.app.goo.gl/gtpgHQMPF337qYn28" target="_blank" rel="noopener noreferrer" className="text-white">
             <FaMapMarkerAlt size={32} /> 
           </a>
         </div>
