@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 py-4 fixed top-11 left-0 w-full z-50">
+    <header className="bg-gray-800 py-4 fixed top-[4rem] left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <div className="text-white font-bold text-xl">Nandini Sweets</div>
