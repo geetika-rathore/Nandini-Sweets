@@ -11,7 +11,7 @@ const Footer = () => {
             <FaWhatsapp size={32} />
           </a>
           {/* Call Link */}
-          <a href="tel:9415715361,6387270799" className="text-white">
+          <a href="tel:6387270799" className="text-white">
             <FaPhoneAlt size={32} />
           </a>
           {/* Location Link */}
