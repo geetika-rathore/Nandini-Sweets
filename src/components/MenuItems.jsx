@@ -9,7 +9,7 @@ import card8 from "../images/card8.jpg"
 import card9 from "../images/card9.jpg"
 const MenuItems = () => {
     const sendMessageToWhatsApp = (message) => {
-        const phoneNumber = '7742525963'; // Replace with the recipient's phone number
+        const phoneNumber = '6387270799';
         const encodedMessage = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
         window.open(whatsappUrl, '_blank');

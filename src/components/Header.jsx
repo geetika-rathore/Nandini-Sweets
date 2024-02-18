@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 py-4 fixed top-9 left-0 w-full z-50">
+    <header className="bg-gray-800 py-4 fixed top-11 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <div className="text-white font-bold text-xl">Nandini Sweets</div>
@@ -54,7 +54,7 @@ const Header = () => {
               <Link to="/menu" className="block text-white py-2 hover:text-gray-300" onClick={closeMenu}>Menu</Link>
             </li>
             <li>
-              <a href="tel:9415715361,6387270799" className="block text-white py-2 hover:text-gray-300" onClick={closeMenu}>Contact</a>
+              <a href="tel:6387270799" className="block text-white py-2 hover:text-gray-300" onClick={closeMenu}>Contact</a>
             </li>
             <li>
               <a href="https://maps.app.goo.gl/gtpgHQMPF337qYn28" className="block text-white py-2 hover:text-gray-300" onClick={closeMenu}>Location</a>

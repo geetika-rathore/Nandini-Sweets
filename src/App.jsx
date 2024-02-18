@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MenuItems from "./components/MenuItems";
-// import Heading from "./components/Heading";
 import Alert from "./components/Alert";
 import { useState } from "react";
 function App() {
